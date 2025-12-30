@@ -7,7 +7,7 @@ export const metadata = {
   description: 'Creada con IA',
 }
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es">
       {/* Aquí aplicamos el fondo oscuro a TODA la aplicación.
